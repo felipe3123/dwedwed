@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+
+ <p>Cadastros de mensagens rapidas</p>
+ <p>Favor conectar seu WhatsappWeb antes de iniciar</p>
+<a href="https://web.whatsapp.com/">WhatsappWeb</a>
+<h1>Coloque as informacões necessarias:</h1>
+
+<form method="POST" action ="/addrapido">
+<label for="Nome">Nome:</label>
+<input type="text" name="Nome"><br><br>
+<label for="Telefone">Telefone:</label>
+<input type="text" name="Telefone"><br><br>
+<input type="submit" value="Confirmar Cadastro">
+
+</form>
+    
+       
+                
+    
+        
+                
+    <nav>
+        <p>Enviar Mensagem Rapida</p>
+        <h1>Coloque o texto que gostaria de enviar:</h1>
+            <form method="POST"action="/msgrapido">
+                   <textarea row="6" style ='width : 26em' id="Textorapido" name="Textorapido"></textarea>
+                   <input type="submit" value="Enviar Mensagem">
+                   </form>
+
+                   <h1>Clique para exluir todos dados salvos:</h1>
+                   <form method="POST"action="/excluirdb">
+                          <input type="submit" value="Excluir Dados">
+                          </form>
+           
+                    
+            <p>Clique para voltar ao Menu:</p>
+            <a href="Menu.html">Menu </a>
+    </nav>
+    </body>
+</html>
